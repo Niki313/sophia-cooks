@@ -20,21 +20,21 @@ export default function Content() {
 
                     <div className="category col-2 ">
                         <div className="circle">
-                            <img src="../images/salad.jpg" alt="Salad"/>
+                            <img src="../images/salad.png" id="salad" alt="Salad" width={130}/>
                         </div>
                             <p>Salad</p>
                     </div>
 
                     <div className="category col-2 ">
                         <div className="circle">
-                            <img src="../images/soup.jpg" alt="Soup"/>
+                            <img src="../images/soup.png" id="soup" alt="Soup" width={120}/>
                         </div>
                             <p>Soup</p>
                     </div>
 
                     <div className="category col-2">
                         <div className="circle">
-                            <img src="../images/main dishes.jpg" alt="Main Dishes"/>
+                            <img src="../images/main dishes.png" id="main-dishes" alt="Main Dishes" width={140}/>
                         </div>
                             <p>Main Dishes</p>
                     </div>
@@ -45,23 +45,23 @@ export default function Content() {
 
                     <div className="category col-2">
                         <div className="circle">
-                            <img src="../images/appetizer.jpg" alt="Appetizer"/>
+                            <img src="../images/appetizer.png" id="appetizer" alt="Appetizer" width={160} />
                         </div>
                             <p>Appetizer</p>
                     </div>
 
                     <div className="category col-2">
                         <div className="circle">
-                            <img src="../images/desert.jpg" alt="Deserts"/>
+                            <img src="../images/desert.png" id="desert" alt="Deserts" width={130}/>
                         </div>
-                            <p>Deserts</p>
+                            <p>Desert</p>
                     </div>
 
                     <div className="category col-2">
                         <div className="circle">
-                            <img src="../images/drinks.jpg" alt="Drinks"/>
+                            <img src="../images/drinks.png" id="drink" alt="Drinks" height={160}/>
                         </div>
-                        <p>Drinks</p>
+                        <p>Drink</p>
                     </div>
                 </div>
                    

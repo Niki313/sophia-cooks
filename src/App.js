@@ -8,9 +8,9 @@ import './styles.css';
 export default function App() {
   return (
     <div className="wrapper">
-    <Menu />
-    <Content />
-    <Footer />
+      <Menu />
+      <Content />
+      <Footer />
     </div>
     
 );

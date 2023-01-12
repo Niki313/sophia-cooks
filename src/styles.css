@@ -4,10 +4,8 @@
   --third-color: black;
   --fourth-color: #FE5000;
   --fifth-color:#F1F1F1;
- 
-
-   --first-font-family: "Ubuntu";
-   --second-font-family: "DM Sans";
+  --first-font-family: "Ubuntu";
+  --second-font-family: "DM Sans";
 }
 
 body{
@@ -18,7 +16,6 @@ body{
 }
 .menu{
     height: 110px;
-    /* box-shadow: 0px 0px 10px 0px rgba(232, 232, 232, 0.5); */
     padding: 0 20px 0 0px;
     
     text-align: center;
@@ -53,6 +50,8 @@ body{
   margin: 0 auto 100px auto;
   
 }
+
+/* Слайдер */
 .slider{
   width: 100%;
   height: auto;
@@ -80,6 +79,8 @@ body{
   color: var(--first-color);
   border: 1px solid var(--first-color);
 }
+
+/* Категории */
 
 #categories{
   padding-left: 75px;
@@ -113,12 +114,32 @@ body{
   overflow:hidden;
 
 }
+
+#salad{
+  margin-top: 40px;
+}
+
+#soup{
+  margin-top: 20px;
+}
+
+#main-dishes{
+  margin-top: 45px;
+}
+
+#desert{
+  margin-top: 15px;
+}
+
+#drink{
+  margin-top: 10px;
+}
+
 /* .category img{
   width: 140px;
   display: block;
   margin: 0 auto;
 } */
-
 .category p{
   margin-top: 15px;
   font-family: var(--first-font-family);
@@ -134,14 +155,26 @@ body{
 } */
 
 
+/* петрушка в р-не футтера */
+  .decoration img{
+    width: 250px;
+    margin-top: 20px;
+    position: absolute;
+    top: 220%;
+    left:-7%;
+  }
 
+
+/* Футтер */
 footer{
   width: 100%;
   height: 180px;
   background-color: var(--third-color);
+  
   margin: 0 0;
   padding: 30px 50px;
 }
+
 
 .contact{
   margin-bottom: 20px;
@@ -195,13 +228,4 @@ footer{
   }
   .copyright a:hover{
       color: var(--fourth-color);
-  }
-
-
-  .decoration img{
-    width: 250px;
-    margin-top: 20px;
-    position: absolute;
-    top: 220%;
-    left:-7%;
   }
