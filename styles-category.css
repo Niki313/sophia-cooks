@@ -1,0 +1,130 @@
+
+:root {
+    --first-color: white;
+    --second-color:#686868 ;
+    --third-color: black;
+    --fourth-color: #FE5000;
+    --fifth-color:#F1F1F1;
+    --first-font-family: "Ubuntu";
+    --second-font-family: "DM Sans";
+  }
+
+
+.content-category{
+background-color: var(--fifth-color);
+text-align: center;
+padding: 100px 50px;
+}
+.content-header{
+    margin-bottom: 50px;
+}
+.content-header img{
+width: 200px;
+height: 50px;
+margin: 0 0;
+}
+
+.content-category  .content-header h1{
+    
+    font-family: var(--second-font-family);
+    font-weight: bold;
+    line-height: 0.3;
+    margin: 0 0;
+
+}
+.pages .pagination{
+    text-align: right;
+    align-items: right;
+    margin: 0 0 0 82%;
+}
+
+ul li{
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 50px 5px;
+    background-color: var(--first-color);
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: var(--first-font-family);
+    font-size: 18px;
+    color: var(--third-color);
+    
+}
+
+.pages ul #active-page{
+    background-color: var(--fourth-color);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+ul li:hover{
+    background-color: #FE5000;
+    
+}
+
+
+
+
+
+
+/* .container-img:hover{
+    color: var(--fourth-color);
+} */
+
+
+
+
+.container-dishes .row{
+    margin-bottom: 50px;
+    text-align: center;
+    }
+    .container-img{
+       padding: 0 0;
+    }
+    .container-img a{
+        font-family: var(--first-font-family);
+        color: var(--third-color);
+        text-decoration: none;
+    }
+    
+    .container-img .name-of-the-dish{
+        margin-top: 30px ;
+       font-size: 18px;
+    }
+    
+    /* .container-img a .name-of-the-dish {
+        color: var(--third-color);
+         font-family: var(--first-font-family);
+        font-size: 16px;
+    } */
+    .container-img a:hover {
+        color: var(--fourth-color);
+    }
+    .img-category{
+        border-radius: 10px;
+        overflow:hidden;
+        height: 350px;
+    }
+    
+    .img-category img{
+        border-radius: 10px;
+        height: 350px;
+        align-items: center;
+    }
+    
+    /* .container-dish-name{
+        /* display: flex; */
+        /* flex-wrap: wrap; 
+      justify-content: center;
+    } */
+
+
+  /* томат в р-не футтера */
+  .decoration-2 img{
+    width: 350px;
+    /* margin-top: 20px; */
+    position: absolute;
+    top: 240%;
+    left:-15%;
+  }

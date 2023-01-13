@@ -1,0 +1,42 @@
+:root {
+    --first-color: white;
+    --second-color:#686868 ;
+    --third-color: black;
+    --fourth-color: #FE5000;
+    --fifth-color:#F1F1F1;
+    --first-font-family: "Ubuntu";
+    --second-font-family: "DM Sans";
+  }
+  
+ 
+  .menu{
+      height: 110px;
+      padding: 0 20px 0 0px;
+      
+      text-align: center;
+      background-color: var(--first-color);
+    }
+    .logo{
+        width: 230px;
+        height: auto;
+        float: left;
+        margin: 5px 0 0 150px;
+    }
+    .menu-item{
+        padding-top: 60px;
+    }
+  #active-link{
+    color: var(--third-color);
+    text-decoration: underline;
+  }
+  .menu a{
+    font-size: 18px;
+    font-family: var(--second-font-family);
+    text-decoration: none;
+    color: var(--second-color);
+  }
+  
+  .menu a:hover{
+    color: var(--third-color);
+  }
+  

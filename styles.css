@@ -1,0 +1,146 @@
+:root {
+  --first-color: white;
+  --second-color:#686868 ;
+  --third-color: black;
+  --fourth-color: #FE5000;
+  --fifth-color:#F1F1F1;
+  --first-font-family: "Ubuntu";
+  --second-font-family: "DM Sans";
+}
+
+body{
+  width: 100%;
+  height: auto;
+  margin: 0 0;
+  padding: 0 0;
+}
+.menu{
+    height: 110px;
+    padding: 0 20px 0 0px;
+    
+    text-align: center;
+    background-color: var(--first-color);
+  }
+  
+  
+
+.content{
+  width: 100%;
+  margin: 0 auto 100px auto;
+  
+}
+
+/* Слайдер */
+.slider{
+  width: 100%;
+  height: auto;
+}
+.slider img{
+  width: 100%;
+  height: auto;
+}
+
+.button{
+  font-size: 16px;
+  padding: 12px 34px;
+  background-color: var(--fourth-color);
+  color: var(--first-color);
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 200px 150px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 430px;
+}
+.button:hover{
+  background: transparent;
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+}
+
+/* Категории */
+
+#categories{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+#categories .row .category{
+ margin: 25px auto;
+}
+
+.category{
+  padding-top: 20px;
+  height: 250px;
+  /* border: 1px solid var(--second-color); */
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--fifth-color) ;
+}
+
+.category:hover{
+  /* border: 1px solid var(--fourth-color); */
+  background-color: var(--third-color) ;
+}
+
+.category a{
+  text-decoration: none;
+}
+
+.circle{
+  width: 150px;
+  height: 150px;
+  background-color: var(--first-color);
+  border-radius: 50% 50%;
+  margin: 0 auto;
+  overflow:hidden;
+
+}
+
+#salad{
+  margin-top: 40px;
+  width: 130px;
+}
+
+#soup{
+  margin-top: 20px;
+  width: 120px;
+}
+
+#main-dishes{
+  margin-top: 45px;
+  width: 140px;
+
+}
+#appetizer{
+  width: 160px;
+}
+
+#desert{
+  margin-top: 15px;
+  width: 130px;
+}
+
+#drink{
+  margin-top: 10px;
+  height: 160px;
+}
+
+
+.category p{
+  margin-top: 15px;
+  font-family: var(--first-font-family);
+  color: var(--fourth-color);
+  font-size: 18px;
+}
+
+
+  /* петрушка в р-не футтера */
+  .decoration img{
+    width: 250px;
+    margin-top: 20px;
+    position: absolute;
+    top: 220%;
+    left:-7%;
+  }
+
